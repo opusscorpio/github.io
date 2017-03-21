@@ -137,7 +137,7 @@ header[role="header"] h1{ padding:0; margin:0}
 
 header[role="header"] h1 > a{ max-width:66px; display:block; float:left}
 
-header[role="header"] nav{ padding-top:10px;transition-delay: 0s;
+header[role="header"] nav{ padding-top:23px;transition-delay: 0s;
 
 transition-duration: 0.6s;transition-property: all;transition-timing-function: ease;}
 
@@ -370,9 +370,4 @@ article[role="pge-title-content"].contact-header p a:hover{color:#fb5353; text-d
 #email {
 	color: black;
 	text-decoration: none;
-}
-
-#noclick {
-	cursor: pointer;
-	pointer-events: none;
 }

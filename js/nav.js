@@ -35,6 +35,7 @@ $(document).ready(function() {
 		  $(this).toggleClass('menu-opened');
 
 		  $('.effect-oscar').css('pointer-events', 'none');
+		  $('body').css('overflow', 'hidden');
 
 		  var mainmenu = $(this).next('ul');
 
@@ -43,6 +44,7 @@ $(document).ready(function() {
 			mainmenu.slideUp().removeClass('open');
 
 			$('.effect-oscar').css('pointer-events', 'auto');
+			$('body').css('overflow', 'auto');
 
 		  }
 
@@ -51,12 +53,14 @@ $(document).ready(function() {
 			mainmenu.slideDown().addClass('open');
 
 			$('.effect-oscar').css('pointer-events', 'none');
+			$('body').css('overflow', 'hidden');
 
 			if (settings.format === "dropdown") {
 
 			  mainmenu.find('ul').slideDown();
 
 			  $('.effect-oscar').css('pointer-events', 'none');
+			  $('body').css('overflow', 'hidden');
 
 			}
 
