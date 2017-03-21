@@ -18,7 +18,7 @@ $(document).ready(function() {
 
         format: "dropdown",
 
-        sticky: false
+        sticky: true
 
       }, options);
 
