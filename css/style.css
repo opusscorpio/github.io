@@ -365,3 +365,8 @@ article[role="pge-title-content"].contact-header p a:hover{color:#fb5353; text-d
 .commentys-form input[type="button"]{ padding:0 36px; text-transform:uppercase; display:inline-block; font-size:21px; line-height:60px; color:#FFF; font-weight: bold; text-align:center; border:none; outline:none; background-color:#fb5353; margin-top:50px}
 
 .commentys-form input[type="button"]:hover{ background-color:#ff5c5c}
+
+#email {
+	color: black;
+	text-decoration: none;
+}
